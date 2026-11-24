@@ -1,22 +1,42 @@
+"""合成资料及跨表引用检查。"""
 import json
 from pathlib import Path
 import unittest
 
+class MaterialsTest(unittest.TestCase):
+    def setUp(self):
+        self.case = json.loads((Path(__file__).parents[1]/"data/case.json").read_text(encoding="utf-8"))
 
-class InputMaterialsTest(unittest.TestCase):
-    def test_case_file_has_stable_source_records(self):
-        path = Path(__file__).parents[1] / "data" / "case.json"
-        case = json.loads(path.read_text(encoding="utf-8"))
-        self.assertIsInstance(case["case_id"], str)
-        self.assertTrue(case["case_id"])
-        records = case["records"]
-        self.assertGreaterEqual(len(records), 2)
-        ids = [record["id"] for record in records]
-        self.assertEqual(len(ids), len(set(ids)))
-        for record in records:
-            self.assertTrue(record["text"].strip())
-            self.assertTrue(record.get("kind") or record.get("source"))
+    def test_sources_are_distinct_and_readable(self):
+        records=self.case["records"]
+        ids=[r["id"] for r in records]
+        self.assertEqual(len(ids),len(set(ids)))
+        self.assertTrue(self.case["case_id"])
+        for r in records:
+            self.assertTrue(r["text"].strip())
+            self.assertTrue(r["kind"])
 
+    def test_cross_record_references_exist(self):
+        ids={r["id"] for r in self.case["records"]}
+        def walk(value):
+            if isinstance(value,dict):
+                for k,v in value.items():
+                    if k=="source": self.assertIn(v,ids)
+                    elif k=="sources":
+                        for source in v:self.assertIn(source,ids)
+                    walk(v)
+            elif isinstance(value,list):
+                for v in value:walk(v)
+        walk(self.case["objects"])
+        walk(self.case["existing"])
 
-if __name__ == "__main__":
+    def test_business_inputs_have_unique_identifiers(self):
+        for group in self.case["objects"].values():
+            if not isinstance(group,list):continue
+            ids=[r["id"] for r in group if isinstance(r,dict) and "id" in r]
+            self.assertEqual(len(ids),len(set(ids)))
+        ids=[r["id"] for r in self.case["existing"]]
+        self.assertEqual(len(ids),len(set(ids)))
+
+if __name__=="__main__":
     unittest.main()

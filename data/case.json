@@ -1,29 +1,137 @@
 {
+  "case_id": "case-geotechnical-bore-log-review",
   "records": [
     {
-      "id": "BH-1",
-      "text": "孔 K-6，深度 5.8m 进入硬层，取样筒空；值班口述‘下到六米遇硬层’。",
-      "kind": "drilling-log"
+      "id": "BH-D1",
+      "kind": "drilling",
+      "text": "K6孔口100.00，深5.8m入硬层，至6.4m取样筒空，继续两米见灰黏土，未记停钻。"
     },
     {
-      "id": "BH-2",
-      "text": "相邻 K-7 在 6.1m 见地下水，未覆盖 K-6。",
-      "kind": "field-note"
+      "id": "BH-D2",
+      "kind": "drilling",
+      "text": "K7孔口99.20，6.1m见水，观察至18点；六号样送实验室，不是K6记录。"
     },
     {
-      "id": "BH-3",
-      "text": "样本 S-60 更正为 S-06，取样深度仍待核。",
-      "kind": "sample-register"
-    }
-  ],
-  "zones": [
+      "id": "BH-S1",
+      "kind": "sample",
+      "text": "S60来自K6深5.6-6.2m混合样跨软硬层，S61来自K7深6.0-6.3m。"
+    },
     {
-      "id": "Z-2",
-      "holes": [
-        "K-6",
-        "K-7"
-      ]
+      "id": "BH-L1",
+      "kind": "lab",
+      "text": "S60无侧限抗压0.42MPa，混合样未分层试验；S61只测含水率。"
+    },
+    {
+      "id": "BH-C1",
+      "kind": "correction",
+      "text": "S60应为S06，深度不变，封签与接收单证实同袋，S61不改。"
+    },
+    {
+      "id": "BH-C2",
+      "kind": "datum",
+      "text": "K6孔口应100.50，原抄错，深度及K7基准不变。"
+    },
+    {
+      "id": "BH-P1",
+      "kind": "design",
+      "text": "拟用S60的0.42MPa于Z2全区高程94.0-93.0硬层，缺样区暂假设均一硬层，见软夹层须停待补查，未签认。"
+    },
+    {
+      "id": "BH-W1",
+      "kind": "construction",
+      "text": "Z2-A已挖至94.20，以下未挖，现场灰软夹层高程待复测。"
+    },
+    {
+      "id": "BH-D3",
+      "kind": "supplement",
+      "text": "K6补样S07深6.3-6.8m有软夹层，独立试验0.11MPa，不是S06重复。"
+    },
+    {
+      "id": "BH-N1",
+      "kind": "field-note",
+      "text": "司机说六米上没有，未说明是水、样品或异常，地质员未确认。"
+    },
+    {
+      "id": "BH-A1",
+      "kind": "design",
+      "text": "Z2-B采用K7独立样S08，不引用S06，位置不在Z2-A。"
     }
   ],
-  "case_id": "bore-1"
+  "objects": {
+    "holes": [
+      {
+        "id": "K6",
+        "mouth_elevation": 100.0
+      },
+      {
+        "id": "K7",
+        "mouth_elevation": 99.2
+      }
+    ],
+    "zones": [
+      {
+        "id": "Z2-A",
+        "holes": [
+          "K6"
+        ],
+        "target_elevation": [
+          93,
+          94
+        ]
+      },
+      {
+        "id": "Z2-B",
+        "holes": [
+          "K7"
+        ],
+        "target_elevation": [
+          93,
+          94
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "id": "S60",
+        "hole": "K6",
+        "depth": [
+          5.6,
+          6.2
+        ]
+      },
+      {
+        "id": "S61",
+        "hole": "K7",
+        "depth": [
+          6.0,
+          6.3
+        ]
+      },
+      {
+        "id": "S08",
+        "hole": "K7",
+        "depth": [
+          5.4,
+          5.8
+        ]
+      }
+    ]
+  },
+  "existing": [
+    {
+      "id": "PARAM-A",
+      "state": "draft",
+      "source": "BH-P1"
+    },
+    {
+      "id": "WORK-A",
+      "state": "in_progress",
+      "source": "BH-W1"
+    },
+    {
+      "id": "PARAM-B",
+      "state": "signed",
+      "source": "BH-A1"
+    }
+  ]
 }
