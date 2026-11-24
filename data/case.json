@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "BH-1",
+      "text": "孔 K-6，深度 5.8m 进入硬层，取样筒空；值班口述‘下到六米遇硬层’。",
+      "kind": "drilling-log"
+    },
+    {
+      "id": "BH-2",
+      "text": "相邻 K-7 在 6.1m 见地下水，未覆盖 K-6。",
+      "kind": "field-note"
+    },
+    {
+      "id": "BH-3",
+      "text": "样本 S-60 更正为 S-06，取样深度仍待核。",
+      "kind": "sample-register"
+    }
+  ],
+  "zones": [
+    {
+      "id": "Z-2",
+      "holes": [
+        "K-6",
+        "K-7"
+      ]
+    }
+  ],
+  "case_id": "bore-1"
+}
