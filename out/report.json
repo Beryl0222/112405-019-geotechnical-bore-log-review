@@ -1,0 +1,1788 @@
+{
+  "case_id": "case-geotechnical-bore-log-review",
+  "snapshot": {
+    "case_id": "case-geotechnical-bore-log-review",
+    "holes": {
+      "K6": {
+        "hole": "K6",
+        "collar_elevation": 100.5,
+        "original_collar_elevation": 100.0,
+        "datum_version": "D1",
+        "collar_history": [
+          {
+            "version": "D0",
+            "collar_elevation": 100.0,
+            "source": {
+              "record_id": "OBJECTS",
+              "quote": "objects.holes:K6"
+            }
+          },
+          {
+            "version": "D1",
+            "collar_elevation": 100.5,
+            "source": {
+              "record_id": "BH-C2",
+              "quote": "K6孔口应100.50，原抄错，深度及K7基准不变"
+            },
+            "reason": "原抄错"
+          }
+        ],
+        "sources": [
+          {
+            "record_id": "OBJECTS",
+            "quote": "objects.holes:K6"
+          }
+        ]
+      },
+      "K7": {
+        "hole": "K7",
+        "collar_elevation": 99.2,
+        "original_collar_elevation": 99.2,
+        "datum_version": "D0",
+        "collar_history": [
+          {
+            "version": "D0",
+            "collar_elevation": 99.2,
+            "source": {
+              "record_id": "OBJECTS",
+              "quote": "objects.holes:K7"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "record_id": "OBJECTS",
+            "quote": "objects.holes:K7"
+          }
+        ]
+      }
+    },
+    "observations": [
+      {
+        "obs_id": "OBS-BH-D1-C2",
+        "kind": "layer_contact",
+        "hole": "K6",
+        "depth": {
+          "start_m": 5.8,
+          "end_m": 5.8
+        },
+        "status": "measured",
+        "layer": "硬层",
+        "detail": {},
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-D1",
+            "quote": "深5.8m入硬层"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-D1-C3",
+        "kind": "no_sample",
+        "hole": "K6",
+        "depth": {
+          "start_m": 6.4,
+          "end_m": 6.4
+        },
+        "status": "not_recovered",
+        "layer": null,
+        "detail": {
+          "meaning": "该点未回收岩芯/取样筒空，不代表无此层或无异常"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-D1",
+            "quote": "至6.4m取样筒空"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-D1-C4",
+        "kind": "layer_seen",
+        "hole": "K6",
+        "depth": {
+          "start_m": 6.4,
+          "end_m": 8.4
+        },
+        "status": "measured",
+        "layer": "灰黏土",
+        "detail": {
+          "continued_from": {
+            "start_m": 6.4,
+            "end_m": 6.4
+          },
+          "rule": "续尺只接同孔上次确认进尺"
+        },
+        "observed_until": null,
+        "contact_located": false,
+        "sources": [
+          {
+            "record_id": "BH-D1",
+            "quote": "继续两米见灰黏土"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-D1-C5",
+        "kind": "note",
+        "hole": "K6",
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "note": "未记停钻"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-D1",
+            "quote": "未记停钻"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-D2-C2",
+        "kind": "water_seen",
+        "hole": "K7",
+        "depth": {
+          "start_m": 6.1,
+          "end_m": 6.1
+        },
+        "status": "measured",
+        "layer": null,
+        "detail": {},
+        "observed_until": "18点",
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-D2",
+            "quote": "6.1m见水"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-D2-C4",
+        "kind": "submission_claim",
+        "hole": "K7",
+        "depth": null,
+        "status": "unconfirmed",
+        "layer": null,
+        "detail": {
+          "oral_sample_no": "六",
+          "note": "转述送样，未与样品登记绑定，禁止凭邻号猜同袋"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-D2",
+            "quote": "六号样送实验室"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-D2-C5",
+        "kind": "note",
+        "hole": "K6",
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "note": "不是K6记录"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-D2",
+            "quote": "不是K6记录"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-P1-C6",
+        "kind": "note",
+        "hole": null,
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "deferred": "design_selection"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-P1",
+            "quote": "拟用S60的0.42MPa于Z2全区高程94.0-93.0硬层，缺样区暂假设均一硬层，见软夹层须停待补查，未签认"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-P1-C7",
+        "kind": "note",
+        "hole": null,
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "deferred": "assumption"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-P1",
+            "quote": "缺样区暂假设均一硬层"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-P1-C8",
+        "kind": "note",
+        "hole": null,
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "deferred": "trigger"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-P1",
+            "quote": "见软夹层须停待补查"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-P1-C9",
+        "kind": "note",
+        "hole": null,
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "note": "未签认（草案）"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-P1",
+            "quote": "未签认"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-W1-C1",
+        "kind": "note",
+        "hole": null,
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "deferred": "construction_excavation"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-W1",
+            "quote": "Z2-A已挖至94.20"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-W1-C2",
+        "kind": "note",
+        "hole": null,
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "note": "以下未挖"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-W1",
+            "quote": "以下未挖"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-W1-C3",
+        "kind": "note",
+        "hole": null,
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "note": "现场灰软夹层高程待复测"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-W1",
+            "quote": "现场灰软夹层高程待复测"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-D3-C1",
+        "kind": "layer_seen",
+        "hole": "K6",
+        "depth": {
+          "start_m": 6.3,
+          "end_m": 6.8
+        },
+        "status": "measured",
+        "layer": "软夹层",
+        "detail": {
+          "via": "supplement_sample"
+        },
+        "observed_until": null,
+        "contact_located": false,
+        "sources": [
+          {
+            "record_id": "BH-D3",
+            "quote": "K6补样S07深6.3-6.8m有软夹层，独立试验0.11MPa，不是S06重复"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-A1-C1",
+        "kind": "note",
+        "hole": "K7",
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "deferred": "zone_selection",
+          "location_note": null
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-A1",
+            "quote": "Z2-B采用K7独立样S08"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-A1-C2",
+        "kind": "note",
+        "hole": "K7",
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "note": "不引用S06"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-A1",
+            "quote": "不引用S06"
+          }
+        ]
+      },
+      {
+        "obs_id": "OBS-BH-A1-C3",
+        "kind": "note",
+        "hole": "K7",
+        "depth": null,
+        "status": "measured",
+        "layer": null,
+        "detail": {
+          "note": "位置不在Z2-A"
+        },
+        "observed_until": null,
+        "contact_located": true,
+        "sources": [
+          {
+            "record_id": "BH-A1",
+            "quote": "位置不在Z2-A"
+          }
+        ]
+      }
+    ],
+    "unconfirmed_claims": [
+      {
+        "claim_id": "BH-N1-U0",
+        "record_id": "BH-N1",
+        "quote": "司机说六米上没有，未说明是水、样品或异常，地质员未确认",
+        "reason": "未说明是水、样品或异常，且地质员未确认，不能生成层位/深度事实"
+      }
+    ],
+    "samples": [
+      {
+        "sample_id": "S06",
+        "aliases": [
+          "S60"
+        ],
+        "hole": "K6",
+        "depth": {
+          "start_m": 5.6,
+          "end_m": 6.2
+        },
+        "mixed": true,
+        "crossed_layers": [
+          "软层",
+          "硬层"
+        ],
+        "identity_evidence": [
+          "封签",
+          "接收单"
+        ],
+        "distinct_from": [],
+        "tests": [
+          {
+            "test_type": "unconfined_compressive_strength",
+            "test_label": "无侧限抗压强度",
+            "sample_id": "S06",
+            "value": 0.42,
+            "unit": "MPa",
+            "layered": false,
+            "note": "混合样未分层试验",
+            "sources": [
+              {
+                "record_id": "BH-L1",
+                "quote": "S60无侧限抗压0.42MPa"
+              },
+              {
+                "record_id": "BH-L1",
+                "quote": "混合样未分层试验"
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "record_id": "OBJECTS",
+            "quote": "objects.samples:S60"
+          },
+          {
+            "record_id": "BH-S1",
+            "quote": "S60来自K6深5.6-6.2m混合样跨软硬层"
+          }
+        ]
+      },
+      {
+        "sample_id": "S07",
+        "aliases": [],
+        "hole": "K6",
+        "depth": {
+          "start_m": 6.3,
+          "end_m": 6.8
+        },
+        "mixed": false,
+        "crossed_layers": [],
+        "identity_evidence": [],
+        "distinct_from": [
+          "S06"
+        ],
+        "tests": [],
+        "sources": [
+          {
+            "record_id": "OBJECTS",
+            "quote": "objects.samples:S07"
+          },
+          {
+            "record_id": "BH-D3",
+            "quote": "K6补样S07深6.3-6.8m有软夹层，独立试验0.11MPa，不是S06重复"
+          }
+        ]
+      },
+      {
+        "sample_id": "S08",
+        "aliases": [],
+        "hole": "K7",
+        "depth": {
+          "start_m": 5.4,
+          "end_m": 5.8
+        },
+        "mixed": false,
+        "crossed_layers": [],
+        "identity_evidence": [],
+        "distinct_from": [],
+        "tests": [],
+        "sources": [
+          {
+            "record_id": "OBJECTS",
+            "quote": "objects.samples:S08"
+          }
+        ]
+      },
+      {
+        "sample_id": "S61",
+        "aliases": [],
+        "hole": "K7",
+        "depth": {
+          "start_m": 6.0,
+          "end_m": 6.3
+        },
+        "mixed": false,
+        "crossed_layers": [],
+        "identity_evidence": [],
+        "distinct_from": [],
+        "tests": [
+          {
+            "test_type": "moisture_content",
+            "test_label": "含水率",
+            "sample_id": "S61",
+            "value": null,
+            "unit": null,
+            "layered": true,
+            "note": "只测该项",
+            "sources": [
+              {
+                "record_id": "BH-L1",
+                "quote": "S61只测含水率"
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "record_id": "OBJECTS",
+            "quote": "objects.samples:S61"
+          },
+          {
+            "record_id": "BH-S1",
+            "quote": "S61来自K7深6.0-6.3m"
+          }
+        ]
+      }
+    ],
+    "corrections": [
+      {
+        "correction_id": "CORR-BH-C1-C1",
+        "kind": "sample_renumber",
+        "applied": true,
+        "detail": {
+          "old_id": "S60",
+          "new_id": "S06",
+          "identity_evidence": [
+            "封签",
+            "接收单"
+          ],
+          "depth_unchanged": true
+        },
+        "reason": "同袋证据充分，实验归属随样号更正",
+        "sources": [
+          {
+            "record_id": "BH-C1",
+            "quote": "S60应为S06，深度不变，封签与接收单证实同袋，S61不改"
+          }
+        ]
+      },
+      {
+        "correction_id": "CORR-BH-C2-C1",
+        "kind": "datum",
+        "applied": true,
+        "detail": {
+          "hole": "K6",
+          "new_collar_elevation": 100.5,
+          "datum_version": "D1",
+          "depth_unchanged": true,
+          "other_hole_unchanged": true
+        },
+        "reason": "孔口原抄错；只改推算标高，原文深度与已完施工记录不移动",
+        "sources": [
+          {
+            "record_id": "BH-C2",
+            "quote": "K6孔口应100.50，原抄错，深度及K7基准不变"
+          }
+        ]
+      }
+    ],
+    "rejected_corrections": [],
+    "assumptions": [
+      {
+        "assumption_id": "ASMP-1",
+        "description": "缺样区暂假设均一硬层",
+        "zone": "Z2-A",
+        "elevation": {
+          "low_m": 93.0,
+          "high_m": 94.0
+        },
+        "trigger": "见软夹层须停待补查；补样结果与均一前提冲突即失效",
+        "valid": false,
+        "invalidated_by": [
+          {
+            "record_id": "BH-D3",
+            "quote": "K6补样S07深6.3-6.8m有软夹层，独立试验0.11MPa，不是S06重复"
+          }
+        ],
+        "sources": [
+          {
+            "record_id": "BH-P1",
+            "quote": "缺样区暂假设均一硬层"
+          }
+        ]
+      },
+      {
+        "assumption_id": "ASMP-2",
+        "description": "缺样区暂假设均一硬层",
+        "zone": "Z2-B",
+        "elevation": {
+          "low_m": 93.0,
+          "high_m": 94.0
+        },
+        "trigger": "见软夹层须停待补查；补样结果与均一前提冲突即失效",
+        "valid": true,
+        "invalidated_by": [],
+        "sources": [
+          {
+            "record_id": "BH-P1",
+            "quote": "缺样区暂假设均一硬层"
+          }
+        ]
+      }
+    ],
+    "selections": [
+      {
+        "selection_id": "PARAM-A-Z2-A",
+        "zone": "Z2-A",
+        "hole": "K6",
+        "parameter": "unconfined_compressive_strength",
+        "value": 0.42,
+        "unit": "MPa",
+        "state": "requires_review",
+        "cited_sample_ids": [
+          "S06"
+        ],
+        "design_elevation": {
+          "low_m": 93.0,
+          "high_m": 94.0
+        },
+        "evidence_depth": {
+          "start_m": 5.6,
+          "end_m": 6.2
+        },
+        "evidence_elevation": {
+          "low_m": 94.3,
+          "high_m": 94.9
+        },
+        "extrapolation": [
+          "S06 为跨 软层/硬层 层混合样且未分层试验，unconfined_compressive_strength 仅适用于该混合区间 5.6-6.2m，禁止以平均强度覆盖其他深度",
+          "证据深度 5.6-6.2m 与设计部位 6.5-7.5m 不重叠，属无实测支撑外推"
+        ],
+        "assumption_ids": [
+          "ASMP-1"
+        ],
+        "triggers": [
+          "见软夹层须停待补查"
+        ],
+        "exclusions": [],
+        "review_notes": [
+          "补样 BH-D3 在 K6 深度 6.3-6.8m 发现软夹层，与假设“缺样区暂假设均一硬层”冲突，前提被推翻；选用说明与施工允许范围须重核"
+        ],
+        "sources": [
+          {
+            "record_id": "BH-P1",
+            "quote": "拟用S60的0.42MPa于Z2全区高程94.0-93.0硬层，缺样区暂假设均一硬层，见软夹层须停待补查，未签认"
+          }
+        ]
+      },
+      {
+        "selection_id": "PARAM-A-Z2-B",
+        "zone": "Z2-B",
+        "hole": "K7",
+        "parameter": "unconfined_compressive_strength",
+        "value": null,
+        "unit": null,
+        "state": "requires_review",
+        "cited_sample_ids": [],
+        "design_elevation": {
+          "low_m": 93.0,
+          "high_m": 94.0
+        },
+        "evidence_depth": null,
+        "evidence_elevation": null,
+        "extrapolation": [],
+        "assumption_ids": [
+          "ASMP-2"
+        ],
+        "triggers": [
+          "见软夹层须停待补查"
+        ],
+        "exclusions": [],
+        "review_notes": [
+          "引用样 S06 属于邻孔 K6，本孔 K7 禁止抄邻孔强度填空；本分区无有效实测引用，须补查本孔样品后重选"
+        ],
+        "sources": [
+          {
+            "record_id": "BH-P1",
+            "quote": "拟用S60的0.42MPa于Z2全区高程94.0-93.0硬层，缺样区暂假设均一硬层，见软夹层须停待补查，未签认"
+          }
+        ]
+      },
+      {
+        "selection_id": "PARAM-B",
+        "zone": "Z2-B",
+        "hole": "K7",
+        "parameter": "unconfined_compressive_strength",
+        "value": null,
+        "unit": null,
+        "state": "requires_review",
+        "cited_sample_ids": [
+          "S08"
+        ],
+        "design_elevation": {
+          "low_m": 93,
+          "high_m": 94
+        },
+        "evidence_depth": {
+          "start_m": 5.4,
+          "end_m": 5.8
+        },
+        "evidence_elevation": {
+          "low_m": 93.4,
+          "high_m": 93.8
+        },
+        "extrapolation": [
+          "证据仅覆盖设计部位的 5.4-5.8m，其余 5.2-6.2m 为外推，须列明前提"
+        ],
+        "assumption_ids": [],
+        "triggers": [],
+        "exclusions": [],
+        "review_notes": [
+          "S08 无 unconfined_compressive_strength 试验，引用无效，需补查",
+          "原签认依据不成立，签认暂不生效，待补查后重签"
+        ],
+        "sources": [
+          {
+            "record_id": "BH-A1",
+            "quote": "Z2-B采用K7独立样S08"
+          }
+        ]
+      }
+    ],
+    "handoffs": [
+      {
+        "handoff_id": "HO-Z2-A-1",
+        "zone": "Z2-A",
+        "hole": "K6",
+        "kind": "stop_pending",
+        "elevation": {
+          "low_m": 93.0,
+          "high_m": 94.0
+        },
+        "depth": {
+          "start_m": 6.5,
+          "end_m": 7.5
+        },
+        "conditions": [
+          "见软夹层立即停待并复测标高",
+          "未签认参数不得作为强度验收依据"
+        ],
+        "reasons": [
+          "OBS-BH-D3-C1: 软夹层，触发停待补查",
+          "PARAM-A-Z2-A: 补样 BH-D3 在 K6 深度 6.3-6.8m 发现软夹层，与假设“缺样区暂假设均一硬层”冲突，前提被推翻；选用说明与施工允许范围须重核"
+        ],
+        "sources": [
+          {
+            "record_id": "PIPELINE",
+            "quote": "handoff:Z2-A"
+          }
+        ]
+      },
+      {
+        "handoff_id": "HO-Z2-B-1",
+        "zone": "Z2-B",
+        "hole": "K7",
+        "kind": "stop_pending",
+        "elevation": {
+          "low_m": 93.0,
+          "high_m": 94.0
+        },
+        "depth": {
+          "start_m": 5.2,
+          "end_m": 6.2
+        },
+        "conditions": [
+          "见软夹层立即停待并复测标高",
+          "未签认参数不得作为强度验收依据"
+        ],
+        "reasons": [
+          "PARAM-A-Z2-B: 引用样 S06 属于邻孔 K6，本孔 K7 禁止抄邻孔强度填空；本分区无有效实测引用，须补查本孔样品后重选",
+          "PARAM-B: S08 无 unconfined_compressive_strength 试验，引用无效，需补查",
+          "PARAM-B: 原签认依据不成立，签认暂不生效，待补查后重签",
+          "缺样区：无实测证据，不能按均一硬层放行，须补查后再定参数"
+        ],
+        "sources": [
+          {
+            "record_id": "PIPELINE",
+            "quote": "handoff:Z2-B"
+          }
+        ]
+      }
+    ],
+    "excavations": [
+      {
+        "entry_id": "EXC-1",
+        "zone": "Z2-A",
+        "recorded_elevation_m": 94.2,
+        "datum_version": "D0",
+        "recorded_equivalent_depth_m": 5.8,
+        "current_equivalent_depth_m": 6.3,
+        "note": null,
+        "sources": [
+          {
+            "record_id": "BH-W1",
+            "quote": "Z2-A已挖至94.20"
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "correction_impact": {
+      "datum_corrections": [
+        {
+          "correction_id": "CORR-BH-C2-C1",
+          "kind": "datum",
+          "applied": true,
+          "detail": {
+            "hole": "K6",
+            "new_collar_elevation": 100.5,
+            "datum_version": "D1",
+            "depth_unchanged": true,
+            "other_hole_unchanged": true
+          },
+          "reason": "孔口原抄错；只改推算标高，原文深度与已完施工记录不移动",
+          "sources": [
+            {
+              "record_id": "BH-C2",
+              "quote": "K6孔口应100.50，原抄错，深度及K7基准不变"
+            }
+          ]
+        }
+      ],
+      "renumber_corrections": [
+        {
+          "correction_id": "CORR-BH-C1-C1",
+          "kind": "sample_renumber",
+          "applied": true,
+          "detail": {
+            "old_id": "S60",
+            "new_id": "S06",
+            "identity_evidence": [
+              "封签",
+              "接收单"
+            ],
+            "depth_unchanged": true
+          },
+          "reason": "同袋证据充分，实验归属随样号更正",
+          "sources": [
+            {
+              "record_id": "BH-C1",
+              "quote": "S60应为S06，深度不变，封签与接收单证实同袋，S61不改"
+            }
+          ]
+        }
+      ],
+      "rejected_corrections": [],
+      "affected_holes": [
+        "K6"
+      ],
+      "affected_sample_mappings": [
+        "S60→S06"
+      ],
+      "affected_zones": [
+        "Z2-A"
+      ],
+      "selections_to_recheck": [
+        {
+          "selection_id": "PARAM-A-Z2-A",
+          "state": "requires_review",
+          "reason": [
+            "孔口基准已更正，设计标高区间对应的深度/标高需按新版本复核",
+            "引用样已由 S60 重编号为 S06，实验归属随更改变更"
+          ]
+        }
+      ],
+      "unfinished_work_segments": [
+        {
+          "handoff_id": "HO-Z2-A-1",
+          "zone": "Z2-A",
+          "hole": "K6",
+          "kind": "stop_pending",
+          "elevation": {
+            "low_m": 93.0,
+            "high_m": 94.0
+          },
+          "depth": {
+            "start_m": 6.5,
+            "end_m": 7.5
+          },
+          "conditions": [
+            "见软夹层立即停待并复测标高",
+            "未签认参数不得作为强度验收依据"
+          ],
+          "reasons": [
+            "OBS-BH-D3-C1: 软夹层，触发停待补查",
+            "PARAM-A-Z2-A: 补样 BH-D3 在 K6 深度 6.3-6.8m 发现软夹层，与假设“缺样区暂假设均一硬层”冲突，前提被推翻；选用说明与施工允许范围须重核"
+          ],
+          "sources": [
+            {
+              "record_id": "PIPELINE",
+              "quote": "handoff:Z2-A"
+            }
+          ]
+        }
+      ],
+      "immutable_excavations": [
+        {
+          "entry_id": "EXC-1",
+          "zone": "Z2-A",
+          "recorded_elevation_m": 94.2,
+          "datum_version": "D0",
+          "recorded_equivalent_depth_m": 5.8,
+          "current_equivalent_depth_m": 6.3,
+          "note": null,
+          "sources": [
+            {
+              "record_id": "BH-W1",
+              "quote": "Z2-A已挖至94.20"
+            }
+          ]
+        }
+      ],
+      "rule": "深度与已完施工记录不移动；标高按新基准重算，样号只改归属不改深度"
+    },
+    "pending_investigations": [
+      {
+        "type": "unconfirmed_claim",
+        "claim_id": "BH-N1-U0",
+        "record_id": "BH-N1",
+        "quote": "司机说六米上没有，未说明是水、样品或异常，地质员未确认",
+        "reason": "未说明是水、样品或异常，且地质员未确认，不能生成层位/深度事实"
+      },
+      {
+        "type": "not_recovered",
+        "obs_id": "OBS-BH-D1-C3",
+        "hole": "K6",
+        "depth": {
+          "start_m": 6.4,
+          "end_m": 6.4
+        },
+        "sources": [
+          {
+            "record_id": "BH-D1",
+            "quote": "至6.4m取样筒空"
+          }
+        ]
+      },
+      {
+        "type": "submission_claim",
+        "obs_id": "OBS-BH-D2-C4",
+        "detail": {
+          "oral_sample_no": "六",
+          "note": "转述送样，未与样品登记绑定，禁止凭邻号猜同袋"
+        },
+        "sources": [
+          {
+            "record_id": "BH-D2",
+            "quote": "六号样送实验室"
+          }
+        ]
+      },
+      {
+        "type": "assumption",
+        "assumption_id": "ASMP-1",
+        "valid": false,
+        "trigger": "见软夹层须停待补查；补样结果与均一前提冲突即失效",
+        "invalidated_by": [
+          {
+            "record_id": "BH-D3",
+            "quote": "K6补样S07深6.3-6.8m有软夹层，独立试验0.11MPa，不是S06重复"
+          }
+        ]
+      },
+      {
+        "type": "assumption",
+        "assumption_id": "ASMP-2",
+        "valid": true,
+        "trigger": "见软夹层须停待补查；补样结果与均一前提冲突即失效",
+        "invalidated_by": []
+      },
+      {
+        "type": "selection_requires_review",
+        "selection_id": "PARAM-A-Z2-A",
+        "review_notes": [
+          "补样 BH-D3 在 K6 深度 6.3-6.8m 发现软夹层，与假设“缺样区暂假设均一硬层”冲突，前提被推翻；选用说明与施工允许范围须重核"
+        ],
+        "triggers": [
+          "见软夹层须停待补查"
+        ]
+      },
+      {
+        "type": "selection_requires_review",
+        "selection_id": "PARAM-A-Z2-B",
+        "review_notes": [
+          "引用样 S06 属于邻孔 K6，本孔 K7 禁止抄邻孔强度填空；本分区无有效实测引用，须补查本孔样品后重选"
+        ],
+        "triggers": [
+          "见软夹层须停待补查"
+        ]
+      },
+      {
+        "type": "selection_requires_review",
+        "selection_id": "PARAM-B",
+        "review_notes": [
+          "S08 无 unconfined_compressive_strength 试验，引用无效，需补查",
+          "原签认依据不成立，签认暂不生效，待补查后重签"
+        ],
+        "triggers": []
+      }
+    ]
+  },
+  "geology": {
+    "Z2-A": {
+      "holes": {
+        "K6": {
+          "layers": [
+            {
+              "hole": "K6",
+              "depth": {
+                "start_m": 5.8,
+                "end_m": 5.8
+              },
+              "elevation": {
+                "low_m": 94.7,
+                "high_m": 94.7
+              },
+              "classification": "material",
+              "layers": [
+                "硬层"
+              ],
+              "contact_located": true,
+              "evidence_ids": [
+                "OBS-BH-D1-C2"
+              ],
+              "sample_ids": [],
+              "notes": [
+                "域外参照点，不在目标区间内"
+              ]
+            },
+            {
+              "hole": "K6",
+              "depth": {
+                "start_m": 6.5,
+                "end_m": 7.5
+              },
+              "elevation": {
+                "low_m": 93.0,
+                "high_m": 94.0
+              },
+              "classification": "material",
+              "layers": [
+                "灰黏土"
+              ],
+              "contact_located": false,
+              "evidence_ids": [
+                "OBS-BH-D1-C4"
+              ],
+              "sample_ids": [],
+              "notes": [
+                "区间观察已裁剪到目标域，界位仍未定位"
+              ]
+            },
+            {
+              "hole": "K6",
+              "depth": {
+                "start_m": 6.5,
+                "end_m": 6.8
+              },
+              "elevation": {
+                "low_m": 93.7,
+                "high_m": 94.0
+              },
+              "classification": "material",
+              "layers": [
+                "软夹层"
+              ],
+              "contact_located": false,
+              "evidence_ids": [
+                "OBS-BH-D3-C1"
+              ],
+              "sample_ids": [],
+              "notes": [
+                "区间观察已裁剪到目标域，界位仍未定位"
+              ]
+            }
+          ],
+          "coverage": {
+            "hole": "K6",
+            "domain": {
+              "start_m": 6.5,
+              "end_m": 7.5
+            },
+            "measured_intervals": [
+              {
+                "start_m": 6.3,
+                "end_m": 8.4
+              }
+            ],
+            "sample_intervals": [
+              {
+                "start_m": 6.3,
+                "end_m": 6.8
+              }
+            ],
+            "gaps": []
+          }
+        }
+      }
+    },
+    "Z2-B": {
+      "holes": {
+        "K7": {
+          "layers": [],
+          "coverage": {
+            "hole": "K7",
+            "domain": {
+              "start_m": 5.2,
+              "end_m": 6.2
+            },
+            "measured_intervals": [
+              {
+                "start_m": 5.4,
+                "end_m": 5.8
+              },
+              {
+                "start_m": 6.0,
+                "end_m": 6.3
+              }
+            ],
+            "sample_intervals": [
+              {
+                "start_m": 5.4,
+                "end_m": 5.8
+              },
+              {
+                "start_m": 6.0,
+                "end_m": 6.3
+              }
+            ],
+            "gaps": [
+              {
+                "hole": "K7",
+                "depth": {
+                  "start_m": 5.2,
+                  "end_m": 5.4
+                },
+                "elevation": {
+                  "low_m": 93.8,
+                  "high_m": 94.0
+                },
+                "status": "unsampled",
+                "reason": "缺样区：无实测证据，不能当均一硬层或无异常",
+                "evidence_ids": []
+              },
+              {
+                "hole": "K7",
+                "depth": {
+                  "start_m": 5.8,
+                  "end_m": 6.0
+                },
+                "elevation": {
+                  "low_m": 93.2,
+                  "high_m": 93.4
+                },
+                "status": "unsampled",
+                "reason": "缺样区：无实测证据，不能当均一硬层或无异常",
+                "evidence_ids": []
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "zones": {
+    "Z2-A": {
+      "zone": "Z2-A",
+      "target_elevation": {
+        "low_m": 93,
+        "high_m": 94
+      },
+      "holes": {
+        "K6": {
+          "depth_domain": {
+            "start_m": 6.5,
+            "end_m": 7.5
+          },
+          "coverage": {
+            "hole": "K6",
+            "domain": {
+              "start_m": 6.5,
+              "end_m": 7.5
+            },
+            "measured_intervals": [
+              {
+                "start_m": 6.3,
+                "end_m": 8.4
+              }
+            ],
+            "sample_intervals": [
+              {
+                "start_m": 6.3,
+                "end_m": 6.8
+              }
+            ],
+            "gaps": []
+          },
+          "selections": [
+            {
+              "selection_id": "PARAM-A-Z2-A",
+              "zone": "Z2-A",
+              "hole": "K6",
+              "parameter": "unconfined_compressive_strength",
+              "value": 0.42,
+              "unit": "MPa",
+              "state": "requires_review",
+              "cited_sample_ids": [
+                "S06"
+              ],
+              "design_elevation": {
+                "low_m": 93.0,
+                "high_m": 94.0
+              },
+              "evidence_depth": {
+                "start_m": 5.6,
+                "end_m": 6.2
+              },
+              "evidence_elevation": {
+                "low_m": 94.3,
+                "high_m": 94.9
+              },
+              "extrapolation": [
+                "S06 为跨 软层/硬层 层混合样且未分层试验，unconfined_compressive_strength 仅适用于该混合区间 5.6-6.2m，禁止以平均强度覆盖其他深度",
+                "证据深度 5.6-6.2m 与设计部位 6.5-7.5m 不重叠，属无实测支撑外推"
+              ],
+              "assumption_ids": [
+                "ASMP-1"
+              ],
+              "triggers": [
+                "见软夹层须停待补查"
+              ],
+              "exclusions": [],
+              "review_notes": [
+                "补样 BH-D3 在 K6 深度 6.3-6.8m 发现软夹层，与假设“缺样区暂假设均一硬层”冲突，前提被推翻；选用说明与施工允许范围须重核"
+              ],
+              "sources": [
+                {
+                  "record_id": "BH-P1",
+                  "quote": "拟用S60的0.42MPa于Z2全区高程94.0-93.0硬层，缺样区暂假设均一硬层，见软夹层须停待补查，未签认"
+                }
+              ]
+            }
+          ],
+          "handoffs": [
+            {
+              "handoff_id": "HO-Z2-A-1",
+              "zone": "Z2-A",
+              "hole": "K6",
+              "kind": "stop_pending",
+              "elevation": {
+                "low_m": 93.0,
+                "high_m": 94.0
+              },
+              "depth": {
+                "start_m": 6.5,
+                "end_m": 7.5
+              },
+              "conditions": [
+                "见软夹层立即停待并复测标高",
+                "未签认参数不得作为强度验收依据"
+              ],
+              "reasons": [
+                "OBS-BH-D3-C1: 软夹层，触发停待补查",
+                "PARAM-A-Z2-A: 补样 BH-D3 在 K6 深度 6.3-6.8m 发现软夹层，与假设“缺样区暂假设均一硬层”冲突，前提被推翻；选用说明与施工允许范围须重核"
+              ],
+              "sources": [
+                {
+                  "record_id": "PIPELINE",
+                  "quote": "handoff:Z2-A"
+                }
+              ]
+            }
+          ],
+          "excavations": [
+            {
+              "entry_id": "EXC-1",
+              "zone": "Z2-A",
+              "recorded_elevation_m": 94.2,
+              "datum_version": "D0",
+              "recorded_equivalent_depth_m": 5.8,
+              "current_equivalent_depth_m": 6.3,
+              "note": null,
+              "sources": [
+                {
+                  "record_id": "BH-W1",
+                  "quote": "Z2-A已挖至94.20"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "unconfirmed_claims": [
+        {
+          "claim_id": "BH-N1-U0",
+          "record_id": "BH-N1",
+          "quote": "司机说六米上没有，未说明是水、样品或异常，地质员未确认",
+          "reason": "未说明是水、样品或异常，且地质员未确认，不能生成层位/深度事实"
+        }
+      ],
+      "assumptions": [
+        {
+          "assumption_id": "ASMP-1",
+          "description": "缺样区暂假设均一硬层",
+          "zone": "Z2-A",
+          "elevation": {
+            "low_m": 93.0,
+            "high_m": 94.0
+          },
+          "trigger": "见软夹层须停待补查；补样结果与均一前提冲突即失效",
+          "valid": false,
+          "invalidated_by": [
+            {
+              "record_id": "BH-D3",
+              "quote": "K6补样S07深6.3-6.8m有软夹层，独立试验0.11MPa，不是S06重复"
+            }
+          ],
+          "sources": [
+            {
+              "record_id": "BH-P1",
+              "quote": "缺样区暂假设均一硬层"
+            }
+          ]
+        }
+      ]
+    },
+    "Z2-B": {
+      "zone": "Z2-B",
+      "target_elevation": {
+        "low_m": 93,
+        "high_m": 94
+      },
+      "holes": {
+        "K7": {
+          "depth_domain": {
+            "start_m": 5.2,
+            "end_m": 6.2
+          },
+          "coverage": {
+            "hole": "K7",
+            "domain": {
+              "start_m": 5.2,
+              "end_m": 6.2
+            },
+            "measured_intervals": [
+              {
+                "start_m": 5.4,
+                "end_m": 5.8
+              },
+              {
+                "start_m": 6.0,
+                "end_m": 6.3
+              }
+            ],
+            "sample_intervals": [
+              {
+                "start_m": 5.4,
+                "end_m": 5.8
+              },
+              {
+                "start_m": 6.0,
+                "end_m": 6.3
+              }
+            ],
+            "gaps": [
+              {
+                "hole": "K7",
+                "depth": {
+                  "start_m": 5.2,
+                  "end_m": 5.4
+                },
+                "elevation": {
+                  "low_m": 93.8,
+                  "high_m": 94.0
+                },
+                "status": "unsampled",
+                "reason": "缺样区：无实测证据，不能当均一硬层或无异常",
+                "evidence_ids": []
+              },
+              {
+                "hole": "K7",
+                "depth": {
+                  "start_m": 5.8,
+                  "end_m": 6.0
+                },
+                "elevation": {
+                  "low_m": 93.2,
+                  "high_m": 93.4
+                },
+                "status": "unsampled",
+                "reason": "缺样区：无实测证据，不能当均一硬层或无异常",
+                "evidence_ids": []
+              }
+            ]
+          },
+          "selections": [
+            {
+              "selection_id": "PARAM-A-Z2-B",
+              "zone": "Z2-B",
+              "hole": "K7",
+              "parameter": "unconfined_compressive_strength",
+              "value": null,
+              "unit": null,
+              "state": "requires_review",
+              "cited_sample_ids": [],
+              "design_elevation": {
+                "low_m": 93.0,
+                "high_m": 94.0
+              },
+              "evidence_depth": null,
+              "evidence_elevation": null,
+              "extrapolation": [],
+              "assumption_ids": [
+                "ASMP-2"
+              ],
+              "triggers": [
+                "见软夹层须停待补查"
+              ],
+              "exclusions": [],
+              "review_notes": [
+                "引用样 S06 属于邻孔 K6，本孔 K7 禁止抄邻孔强度填空；本分区无有效实测引用，须补查本孔样品后重选"
+              ],
+              "sources": [
+                {
+                  "record_id": "BH-P1",
+                  "quote": "拟用S60的0.42MPa于Z2全区高程94.0-93.0硬层，缺样区暂假设均一硬层，见软夹层须停待补查，未签认"
+                }
+              ]
+            },
+            {
+              "selection_id": "PARAM-B",
+              "zone": "Z2-B",
+              "hole": "K7",
+              "parameter": "unconfined_compressive_strength",
+              "value": null,
+              "unit": null,
+              "state": "requires_review",
+              "cited_sample_ids": [
+                "S08"
+              ],
+              "design_elevation": {
+                "low_m": 93,
+                "high_m": 94
+              },
+              "evidence_depth": {
+                "start_m": 5.4,
+                "end_m": 5.8
+              },
+              "evidence_elevation": {
+                "low_m": 93.4,
+                "high_m": 93.8
+              },
+              "extrapolation": [
+                "证据仅覆盖设计部位的 5.4-5.8m，其余 5.2-6.2m 为外推，须列明前提"
+              ],
+              "assumption_ids": [],
+              "triggers": [],
+              "exclusions": [],
+              "review_notes": [
+                "S08 无 unconfined_compressive_strength 试验，引用无效，需补查",
+                "原签认依据不成立，签认暂不生效，待补查后重签"
+              ],
+              "sources": [
+                {
+                  "record_id": "BH-A1",
+                  "quote": "Z2-B采用K7独立样S08"
+                }
+              ]
+            }
+          ],
+          "handoffs": [
+            {
+              "handoff_id": "HO-Z2-B-1",
+              "zone": "Z2-B",
+              "hole": "K7",
+              "kind": "stop_pending",
+              "elevation": {
+                "low_m": 93.0,
+                "high_m": 94.0
+              },
+              "depth": {
+                "start_m": 5.2,
+                "end_m": 6.2
+              },
+              "conditions": [
+                "见软夹层立即停待并复测标高",
+                "未签认参数不得作为强度验收依据"
+              ],
+              "reasons": [
+                "PARAM-A-Z2-B: 引用样 S06 属于邻孔 K6，本孔 K7 禁止抄邻孔强度填空；本分区无有效实测引用，须补查本孔样品后重选",
+                "PARAM-B: S08 无 unconfined_compressive_strength 试验，引用无效，需补查",
+                "PARAM-B: 原签认依据不成立，签认暂不生效，待补查后重签",
+                "缺样区：无实测证据，不能按均一硬层放行，须补查后再定参数"
+              ],
+              "sources": [
+                {
+                  "record_id": "PIPELINE",
+                  "quote": "handoff:Z2-B"
+                }
+              ]
+            }
+          ],
+          "excavations": []
+        }
+      },
+      "unconfirmed_claims": [
+        {
+          "claim_id": "BH-N1-U0",
+          "record_id": "BH-N1",
+          "quote": "司机说六米上没有，未说明是水、样品或异常，地质员未确认",
+          "reason": "未说明是水、样品或异常，且地质员未确认，不能生成层位/深度事实"
+        }
+      ],
+      "assumptions": [
+        {
+          "assumption_id": "ASMP-2",
+          "description": "缺样区暂假设均一硬层",
+          "zone": "Z2-B",
+          "elevation": {
+            "low_m": 93.0,
+            "high_m": 94.0
+          },
+          "trigger": "见软夹层须停待补查；补样结果与均一前提冲突即失效",
+          "valid": true,
+          "invalidated_by": [],
+          "sources": [
+            {
+              "record_id": "BH-P1",
+              "quote": "缺样区暂假设均一硬层"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "correction_impact": {
+    "datum_corrections": [
+      {
+        "correction_id": "CORR-BH-C2-C1",
+        "kind": "datum",
+        "applied": true,
+        "detail": {
+          "hole": "K6",
+          "new_collar_elevation": 100.5,
+          "datum_version": "D1",
+          "depth_unchanged": true,
+          "other_hole_unchanged": true
+        },
+        "reason": "孔口原抄错；只改推算标高，原文深度与已完施工记录不移动",
+        "sources": [
+          {
+            "record_id": "BH-C2",
+            "quote": "K6孔口应100.50，原抄错，深度及K7基准不变"
+          }
+        ]
+      }
+    ],
+    "renumber_corrections": [
+      {
+        "correction_id": "CORR-BH-C1-C1",
+        "kind": "sample_renumber",
+        "applied": true,
+        "detail": {
+          "old_id": "S60",
+          "new_id": "S06",
+          "identity_evidence": [
+            "封签",
+            "接收单"
+          ],
+          "depth_unchanged": true
+        },
+        "reason": "同袋证据充分，实验归属随样号更正",
+        "sources": [
+          {
+            "record_id": "BH-C1",
+            "quote": "S60应为S06，深度不变，封签与接收单证实同袋，S61不改"
+          }
+        ]
+      }
+    ],
+    "rejected_corrections": [],
+    "affected_holes": [
+      "K6"
+    ],
+    "affected_sample_mappings": [
+      "S60→S06"
+    ],
+    "affected_zones": [
+      "Z2-A"
+    ],
+    "selections_to_recheck": [
+      {
+        "selection_id": "PARAM-A-Z2-A",
+        "state": "requires_review",
+        "reason": [
+          "孔口基准已更正，设计标高区间对应的深度/标高需按新版本复核",
+          "引用样已由 S60 重编号为 S06，实验归属随更改变更"
+        ]
+      }
+    ],
+    "unfinished_work_segments": [
+      {
+        "handoff_id": "HO-Z2-A-1",
+        "zone": "Z2-A",
+        "hole": "K6",
+        "kind": "stop_pending",
+        "elevation": {
+          "low_m": 93.0,
+          "high_m": 94.0
+        },
+        "depth": {
+          "start_m": 6.5,
+          "end_m": 7.5
+        },
+        "conditions": [
+          "见软夹层立即停待并复测标高",
+          "未签认参数不得作为强度验收依据"
+        ],
+        "reasons": [
+          "OBS-BH-D3-C1: 软夹层，触发停待补查",
+          "PARAM-A-Z2-A: 补样 BH-D3 在 K6 深度 6.3-6.8m 发现软夹层，与假设“缺样区暂假设均一硬层”冲突，前提被推翻；选用说明与施工允许范围须重核"
+        ],
+        "sources": [
+          {
+            "record_id": "PIPELINE",
+            "quote": "handoff:Z2-A"
+          }
+        ]
+      }
+    ],
+    "immutable_excavations": [
+      {
+        "entry_id": "EXC-1",
+        "zone": "Z2-A",
+        "recorded_elevation_m": 94.2,
+        "datum_version": "D0",
+        "recorded_equivalent_depth_m": 5.8,
+        "current_equivalent_depth_m": 6.3,
+        "note": null,
+        "sources": [
+          {
+            "record_id": "BH-W1",
+            "quote": "Z2-A已挖至94.20"
+          }
+        ]
+      }
+    ],
+    "rule": "深度与已完施工记录不移动；标高按新基准重算，样号只改归属不改深度"
+  },
+  "pending_investigations": [
+    {
+      "type": "unconfirmed_claim",
+      "claim_id": "BH-N1-U0",
+      "record_id": "BH-N1",
+      "quote": "司机说六米上没有，未说明是水、样品或异常，地质员未确认",
+      "reason": "未说明是水、样品或异常，且地质员未确认，不能生成层位/深度事实"
+    },
+    {
+      "type": "not_recovered",
+      "obs_id": "OBS-BH-D1-C3",
+      "hole": "K6",
+      "depth": {
+        "start_m": 6.4,
+        "end_m": 6.4
+      },
+      "sources": [
+        {
+          "record_id": "BH-D1",
+          "quote": "至6.4m取样筒空"
+        }
+      ]
+    },
+    {
+      "type": "submission_claim",
+      "obs_id": "OBS-BH-D2-C4",
+      "detail": {
+        "oral_sample_no": "六",
+        "note": "转述送样，未与样品登记绑定，禁止凭邻号猜同袋"
+      },
+      "sources": [
+        {
+          "record_id": "BH-D2",
+          "quote": "六号样送实验室"
+        }
+      ]
+    },
+    {
+      "type": "assumption",
+      "assumption_id": "ASMP-1",
+      "valid": false,
+      "trigger": "见软夹层须停待补查；补样结果与均一前提冲突即失效",
+      "invalidated_by": [
+        {
+          "record_id": "BH-D3",
+          "quote": "K6补样S07深6.3-6.8m有软夹层，独立试验0.11MPa，不是S06重复"
+        }
+      ]
+    },
+    {
+      "type": "assumption",
+      "assumption_id": "ASMP-2",
+      "valid": true,
+      "trigger": "见软夹层须停待补查；补样结果与均一前提冲突即失效",
+      "invalidated_by": []
+    },
+    {
+      "type": "selection_requires_review",
+      "selection_id": "PARAM-A-Z2-A",
+      "review_notes": [
+        "补样 BH-D3 在 K6 深度 6.3-6.8m 发现软夹层，与假设“缺样区暂假设均一硬层”冲突，前提被推翻；选用说明与施工允许范围须重核"
+      ],
+      "triggers": [
+        "见软夹层须停待补查"
+      ]
+    },
+    {
+      "type": "selection_requires_review",
+      "selection_id": "PARAM-A-Z2-B",
+      "review_notes": [
+        "引用样 S06 属于邻孔 K6，本孔 K7 禁止抄邻孔强度填空；本分区无有效实测引用，须补查本孔样品后重选"
+      ],
+      "triggers": [
+        "见软夹层须停待补查"
+      ]
+    },
+    {
+      "type": "selection_requires_review",
+      "selection_id": "PARAM-B",
+      "review_notes": [
+        "S08 无 unconfined_compressive_strength 试验，引用无效，需补查",
+        "原签认依据不成立，签认暂不生效，待补查后重签"
+      ],
+      "triggers": []
+    }
+  ],
+  "disclaimer": "全部为合成演练资料与规则推导，不用于真实设计。"
+}
